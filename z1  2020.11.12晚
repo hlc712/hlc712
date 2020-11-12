@@ -1,0 +1,8 @@
+#include<stdio.h>
+void work(){
+printf("深夜的酒比不上清晨的粥");
+}
+void main(){
+	work();
+
+}
