@@ -2,10 +2,14 @@
 void main(){
 	int i;
 	if(i=1){
-		printf("是男生");
+		printf("男");
+	}
+	else if(i=0){
+		printf("女");
+
 	}
 	else{
-		printf("是女生");
+		printf("输入有误，请重新输入");
 	}
 }
 
