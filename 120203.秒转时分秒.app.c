@@ -7,8 +7,8 @@ void main()
 	b=a/3600;
 	c=(a%3600)/60;
 	d=a-3600*b-60*c;
-	printf("%d时",b);
-	printf("%d分",c);
-	printf("%d秒",d);
+	printf("%dhour",b);
+	printf("%dminute",c);
+	printf("%dseconds",d);
 
 }
