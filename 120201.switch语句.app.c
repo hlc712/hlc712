@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main()
 { 
-	int a=5;
+	int a;
+	scanf("%d",&a);
+	printf("QS大学排名\n");
 	switch(a)
 	{
 	case 1:printf("清华大学");break;
