@@ -28,9 +28,12 @@ void main()
 		printf("\n");
 		
 	}
+		
 		for(row=0;row<20;row++){
 		for(column=0;column<10;column++){
 			array2d[row][column]=999;
 			printf("%d ",array2d[row][column]);
 		}
-		
+		printf("\n");
+		}
+}
